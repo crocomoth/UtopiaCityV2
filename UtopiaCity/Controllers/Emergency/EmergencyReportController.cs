@@ -36,7 +36,7 @@ namespace UtopiaCity.Controllers.Emergency
                 NotFound();
             }
 
-            return View("DetailEmergencyReportView", report);
+            return View("DetailsEmergencyReportView", report);
         }
 
         [HttpGet]
