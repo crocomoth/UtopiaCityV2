@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using UtopiaCity.Data;
+using UtopiaCity.Services.Emergency;
 
 namespace UtopiaCity
 {
@@ -21,6 +22,12 @@ namespace UtopiaCity
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            #region Services
+
+            services.AddScoped<EmergencyReportService, EmergencyReportService>();
+
+            #endregion
 
             services.AddControllersWithViews();
         }
