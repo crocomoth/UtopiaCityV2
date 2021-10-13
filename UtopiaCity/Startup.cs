@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using UtopiaCity.Common;
 using UtopiaCity.Data;
 using UtopiaCity.Services.Emergency;
 
@@ -45,6 +46,27 @@ namespace UtopiaCity
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
+            {
+                var appConfig = Configuration.GetSection("AppConfig").Get<AppConfig>();
+                if (appConfig != null)
+                {
+                    var context = serviceScope.ServiceProvider.GetRequiredService<AppDbContext>();
+                    DbInitializer.RegisterSubInitializers();
+
+                    if (appConfig.ClearDb)
+                    {
+                        DbInitializer.ClearDb(context);
+                    }
+
+                    if (appConfig.SeedDb)
+                    {
+                        DbInitializer.InitializeDb(context);
+                    }
+                }
+            }
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
