@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using UtopiaCity.Models.Emergency;
+using UtopiaCity.Models.FireService;
 
 namespace UtopiaCity.Data
 {
@@ -10,5 +11,6 @@ namespace UtopiaCity.Data
         }
 
         public DbSet<EmergencyReport> EmergencyReport { get; set; }
+        public DbSet<FireIncidentReport> FireIncidentReports { get; set; }
     }
 }
