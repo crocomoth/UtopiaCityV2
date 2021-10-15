@@ -10,7 +10,7 @@ using UtopiaCity.Data;
 namespace UtopiaCity.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20211014105837_FireIncidentReportTableAdded")]
+    [Migration("20211015064819_FireIncidentReportTableAdded")]
     partial class FireIncidentReportTableAdded
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -37,16 +37,24 @@ namespace UtopiaCity.Data.Migrations
                     b.ToTable("EmergencyReport");
                 });
 
-            modelBuilder.Entity("UtopiaCity.Models.FireService.FireIncidentReport", b =>
+            modelBuilder.Entity("UtopiaCity.Models.FireDepartment.FireIncidentReport", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                        .ValueGeneratedOnAdd()
+                        .HasMaxLength(36)
+                        .HasColumnType("nvarchar(36)");
+
+                    b.Property<string>("AdditionalInfo")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
 
                     b.Property<string>("Address")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
 
                     b.Property<string>("EyewitnessId")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(36)
+                        .HasColumnType("nvarchar(36)");
 
                     b.Property<DateTime>("IncidentDate")
                         .HasColumnType("datetime2");
