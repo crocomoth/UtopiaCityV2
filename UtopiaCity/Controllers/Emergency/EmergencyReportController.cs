@@ -58,30 +58,11 @@ namespace UtopiaCity.Controllers.Emergency
                 return View("CreateEmergencyReportView");
             }
 
-<<<<<<< HEAD
-            return TryExecuteViewResult(() =>
-=======
             return TryExecuteActionResult(() =>
->>>>>>> merge
             {
                 _emergencyReportService.AddNewEmergencyReport(newReport);
                 return RedirectToAction(nameof(Index));
             });
-<<<<<<< HEAD
-        }
-
-        private ActionResult TryExecuteViewResult(Func<ActionResult> func)
-        {
-            try
-            {
-                return func.Invoke();
-            }
-            catch (Exception e)
-            {
-                return this.ViewError(e);
-            }
-=======
->>>>>>> merge
         }
 
         [HttpGet]
@@ -112,20 +93,8 @@ namespace UtopiaCity.Controllers.Emergency
 
             if (ModelState.IsValid)
             {
-<<<<<<< HEAD
-                try
-                {
-                    _emergencyReportService.EditEmergencyReport(emergencyReport);
-                    return RedirectToAction(nameof(Index));
-                }
-                catch(Exception e)
-                {
-                    return View(new ErrorViewModel() { Data = e.Message });
-                }
-=======
                 _emergencyReportService.UpdateEmergencyReport(emergencyReport);
                 return RedirectToAction(nameof(Index));
->>>>>>> merge
             }
 
             return View("EditEmergencyReportView", emergencyReport);
