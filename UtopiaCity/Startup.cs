@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using UtopiaCity.Common;
 using UtopiaCity.Data;
+using UtopiaCity.Models.Emergency;
 using UtopiaCity.Services.Emergency;
 
 namespace UtopiaCity

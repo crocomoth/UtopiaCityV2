@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,40 +9,52 @@ using UtopiaCity.Models.Emergency;
 namespace UtopiaCity.Services.Emergency
 {
     /// <summary>
-    /// Service to access and perform operations with <see cref="EmergencyReport"/>
+    /// This is service to handle basic CRUD opereations for <see cref="EmergencyReport"/>
     /// </summary>
     public class EmergencyReportService
     {
-        private readonly AppDbContext _appDbContext;
+        private readonly AppDbContext _dbContext;
 
         public EmergencyReportService(AppDbContext context)
         {
-            _appDbContext = context;
+            _dbContext = context;
         }
 
+        public async Task<List<EmergencyReport>> GetAllReportsAsync()
+        {
+            return await _dbContext.EmergencyReport.ToListAsync();
+        }
+
+        /// <summary>
+        /// This is a summary
+        /// </summary>
+        /// <param name="id">Id of report.</param>
+        /// <returns>Report with specified Id.</returns>
         public EmergencyReport GetEmergencyReport(string id)
         {
-            return _appDbContext.EmergencyReport.FirstOrDefault(x => x.Id.Equals(id));
+            return _dbContext.EmergencyReport.FirstOrDefault(x => x.Id.Equals(id));
         }
 
         public void AddNewEmergencyReport(EmergencyReport newReport)
         {
-            _appDbContext.Add(newReport);
-            int entries = _appDbContext.SaveChanges();
+            _dbContext.Add(newReport);
+            int entries = _dbContext.SaveChanges();
             if (entries == 0)
             {
-                throw new Exception($"{this} could not perform save for request");
+                throw new Exception($"{this} could not perform save for report.");
             }
         }
 
-        public void EditEmergencyReport(EmergencyReport emergencyReport)
+        public void UpdateEmergencyReport(EmergencyReport report)
         {
-            _appDbContext.Update(emergencyReport);
-            int entries = _appDbContext.SaveChanges();
-            if (entries == 0)
-            {
-                throw new Exception($"{this} could not perform edit for request");
-            }
+            _dbContext.Update(report);
+            _dbContext.SaveChanges();
+        }
+
+        public void RemoveEmergencyReport(EmergencyReport report)
+        {
+            _dbContext.Remove(report);
+            _dbContext.SaveChanges();
         }
     }
 }

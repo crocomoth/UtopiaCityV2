@@ -11,21 +11,19 @@ using UtopiaCity.Services.Emergency;
 
 namespace UtopiaCity.Controllers.Emergency
 {
-    public class EmergencyReportController : Controller
+    public class EmergencyReportController : BaseController
     {
-        private readonly AppDbContext _dbContext;
         private readonly EmergencyReportService _emergencyReportService;
 
-        public EmergencyReportController(AppDbContext dbContext, EmergencyReportService emergencyReportService)
+        public EmergencyReportController(EmergencyReportService emergencyReportService)
         {
-            _dbContext = dbContext;
             _emergencyReportService = emergencyReportService;
         }
 
         [HttpGet]
         public async Task<ActionResult> Index()
         {
-            return View("ListEmergencyReportView", await _dbContext.EmergencyReport.ToListAsync());
+            return View("ListEmergencyReportView", await _emergencyReportService.GetAllReportsAsync());
         }
 
         [HttpGet]
@@ -60,11 +58,16 @@ namespace UtopiaCity.Controllers.Emergency
                 return View("CreateEmergencyReportView");
             }
 
+<<<<<<< HEAD
             return TryExecuteViewResult(() =>
+=======
+            return TryExecuteActionResult(() =>
+>>>>>>> merge
             {
                 _emergencyReportService.AddNewEmergencyReport(newReport);
                 return RedirectToAction(nameof(Index));
             });
+<<<<<<< HEAD
         }
 
         private ActionResult TryExecuteViewResult(Func<ActionResult> func)
@@ -77,6 +80,8 @@ namespace UtopiaCity.Controllers.Emergency
             {
                 return this.ViewError(e);
             }
+=======
+>>>>>>> merge
         }
 
         [HttpGet]
@@ -107,6 +112,7 @@ namespace UtopiaCity.Controllers.Emergency
 
             if (ModelState.IsValid)
             {
+<<<<<<< HEAD
                 try
                 {
                     _emergencyReportService.EditEmergencyReport(emergencyReport);
@@ -116,6 +122,10 @@ namespace UtopiaCity.Controllers.Emergency
                 {
                     return View(new ErrorViewModel() { Data = e.Message });
                 }
+=======
+                _emergencyReportService.UpdateEmergencyReport(emergencyReport);
+                return RedirectToAction(nameof(Index));
+>>>>>>> merge
             }
 
             return View("EditEmergencyReportView", emergencyReport);
@@ -143,14 +153,13 @@ namespace UtopiaCity.Controllers.Emergency
         [ActionName("Delete")]
         public ActionResult DeleteConfirmed(string id)
         {
-            var report = _dbContext.EmergencyReport.FirstOrDefault(x => x.Id.Equals(id));
+            var report = _emergencyReportService.GetEmergencyReport(id);
             if (report == null)
             {
                 return NotFound();
             }
 
-            _dbContext.Remove(report);
-            _dbContext.SaveChanges();
+            _emergencyReportService.RemoveEmergencyReport(report);
             return RedirectToAction(nameof(Index));
         }
     }
