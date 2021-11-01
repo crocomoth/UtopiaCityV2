@@ -1,0 +1,39 @@
+﻿@using UtopiaCity.ViewModels.FireDepartment
+
+@model CreateFireIncidentReportViewModel
+@{
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <h3 class="p-2">
+        New fire incident report
+    </h3>
+    <form asp-action="CreateFireIncidentReport" asp-controller="FireDepartment" method="post">
+        <div class="row">
+            <div class="col-3 p-2">
+                <label>
+                    Address:
+                </label>
+            </div>
+            <div class="col-4 p-2">
+                <input type="text" name="address" asp-for="Address" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 p-2">
+                <label>
+                    Additional info:
+                </label>
+            </div>
+            <div class="col-4 p-2">
+                <input type="text" name="additionalInfo" asp-for="AdditionalInfo" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 p-2">
+                <button type="submit" class="btn btn-info">Create</button>
+            </div>
+        </div>
+    </form>
+</div>
