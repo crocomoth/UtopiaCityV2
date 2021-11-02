@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using System.Threading.Tasks;
+using UtopiaCity.Common;
 using UtopiaCity.Models.Emergency;
 using UtopiaCity.Services.Emergency;
 
@@ -8,10 +10,12 @@ namespace UtopiaCity.Controllers.Emergency
     public class EmergencyReportController : BaseController
     {
         private readonly EmergencyReportService _emergencyReportService;
+        private readonly AppConfig _appConfig;
 
-        public EmergencyReportController(EmergencyReportService emergencyReportService)
+        public EmergencyReportController(EmergencyReportService emergencyReportService, IOptions<AppConfig> options)
         {
             _emergencyReportService = emergencyReportService;
+            _appConfig = options.Value;
         }
 
         [HttpGet]
