@@ -4,8 +4,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using UtopiaCity.Common;
 using UtopiaCity.Data;
 using UtopiaCity.Extensions;
+using UtopiaCity.Services.Emergency;
 
 namespace UtopiaCity
 {
@@ -23,6 +25,13 @@ namespace UtopiaCity
         {
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
+            #region Services
+
+            services.AddScoped<EmergencyReportService, EmergencyReportService>();
+
+            #endregion
+
+            services.Configure<AppConfig>(Configuration.GetSection(AppConfig.Name));
             services.AddControllersWithViews();
             services.AddServices();
             services.AddAutoMapper(typeof(Startup));
@@ -41,13 +50,31 @@ namespace UtopiaCity
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            var appConfig = Configuration.GetSection(AppConfig.Name).Get<AppConfig>();
+            if (appConfig != null)
+            {
+                using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
+                {
+                    var context = serviceScope.ServiceProvider.GetRequiredService<AppDbContext>();
+                    DbInitializer.RegisterSubDbInitializers();
+
+                    if (appConfig.ClearDb)
+                    {
+                        DbInitializer.ClearDb(context);
+                    }
+
+                    if (appConfig.SeedDb)
+                    {
+                        DbInitializer.InitializeDb(context);
+                    }
+                }
+            }
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
-
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
