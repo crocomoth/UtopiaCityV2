@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System;
 using UtopiaCity.Models.FireDepartment;
 
 namespace UtopiaCity.Data.MapConfigurations
@@ -13,6 +14,7 @@ namespace UtopiaCity.Data.MapConfigurations
             builder.Property(fir => fir.Address).HasMaxLength(128);
             builder.Property(fir => fir.EyewitnessId).HasMaxLength(36);
             builder.Property(fir => fir.AdditionalInfo).HasMaxLength(256);
+            builder.Property(fir => fir.IncidentDate).HasDefaultValueSql("getdate()");
         }
     }
 }
