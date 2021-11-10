@@ -1,0 +1,6 @@
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Yauheni_Papiunenka\source\repos\UtopiaCity\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Home/Privacy
