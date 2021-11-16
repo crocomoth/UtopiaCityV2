@@ -3,12 +3,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using System.Threading.Tasks;
 using UtopiaCity.Common;
+using UtopiaCity.Filters;
 using UtopiaCity.Models.Emergency;
 using UtopiaCity.Services.Emergency;
 
 namespace UtopiaCity.Controllers.Emergency
 {
     [Authorize]
+    [CookieFilter]
     public class EmergencyReportController : BaseController
     {
         public const string ContollerName = "EmergencyReport";
