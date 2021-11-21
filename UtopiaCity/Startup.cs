@@ -7,6 +7,7 @@ using Microsoft.Extensions.Hosting;
 using UtopiaCity.Common;
 using UtopiaCity.Data;
 using UtopiaCity.Extensions;
+using UtopiaCity.Extensions.ApiLayer;
 using UtopiaCity.Services.Emergency;
 
 namespace UtopiaCity
@@ -33,8 +34,8 @@ namespace UtopiaCity
 
             services.Configure<AppConfig>(Configuration.GetSection(AppConfig.Name));
             services.AddControllersWithViews();
+            services.AddApiLayer();
             services.AddServices();
-            services.AddAutoMapper(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,6 +44,9 @@ namespace UtopiaCity
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                
+                app.UseSwagger();
+                app.UseSwaggerUI();
             }
             else
             {
