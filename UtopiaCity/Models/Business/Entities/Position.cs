@@ -1,8 +1,8 @@
-using UtopiaCity.Models.Business.Common;
+using UtopiaCity.Models.Common;
 
 namespace UtopiaCity.Models.Business.Entities
 {
-    public class Position: ExtendedBusinessEntity
+    public class Position: ExtendedEntity
     {
         public string CompanyId { get; set; }
         public Company Company { get; set; }

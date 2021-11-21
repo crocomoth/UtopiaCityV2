@@ -1,8 +1,8 @@
-using UtopiaCity.Models.Business.Common;
+using UtopiaCity.Models.Common;
 
 namespace UtopiaCity.Models.Business.Dictionaries
 {
-    public class CompanyType: BaseDicEntity
+    public class CompanyType: BaseDictionary
     {
         
     }

@@ -1,8 +1,8 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace UtopiaCity.Models.Business.Common
+namespace UtopiaCity.Models.Common
 {
-    public class BaseBusinessEntity
+    public class BaseEntity
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public string Id { get; set; }

@@ -1,9 +1,9 @@
-using UtopiaCity.Models.Business.Common;
 using UtopiaCity.Models.Business.Temp;
+using UtopiaCity.Models.Common;
 
 namespace UtopiaCity.Models.Business.Entities
 {
-    public class Employment: ExtendedBusinessEntity
+    public class Employment: ExtendedEntity
     {
         public string PersonId { get; set; }
         public Person Person { get; set; }

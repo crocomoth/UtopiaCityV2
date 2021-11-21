@@ -1,9 +1,9 @@
 using System;
-using UtopiaCity.Models.Business.Common;
+using UtopiaCity.Models.Common;
 
 namespace UtopiaCity.Models.Business.Temp
 {
-    public class Person: ExtendedBusinessEntity
+    public class Person: ExtendedEntity
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

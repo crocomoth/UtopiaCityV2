@@ -1,8 +1,8 @@
 using System;
 
-namespace UtopiaCity.Models.Business.Common
+namespace UtopiaCity.Models.Common
 {
-    public class ExtendedBusinessEntity: BaseBusinessEntity
+    public class ExtendedEntity: BaseEntity
     {
         public bool IsDeleted { get; set; } = false;
         public DateTime StartDate { get; set; } = DateTime.Now;

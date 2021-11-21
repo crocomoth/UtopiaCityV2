@@ -1,6 +1,6 @@
-namespace UtopiaCity.Models.Business.Common
+namespace UtopiaCity.Models.Common
 {
-    public class BaseDicEntity: BaseBusinessEntity
+    public class BaseDictionary: BaseEntity
     {
         public string Title { get; set; }
         public int Code { get; set; }

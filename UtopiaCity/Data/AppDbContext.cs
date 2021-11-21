@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using UtopiaCity.Data.MapConfigurations;
 using UtopiaCity.Models.Business.Entities;
+using UtopiaCity.Models.CityHall;
 using UtopiaCity.Models.Emergency;
 using UtopiaCity.Models.FireDepartment;
 
@@ -20,6 +21,12 @@ namespace UtopiaCity.Data
         public DbSet<Company> Companies { get; set; }
         public DbSet<Position> Positions { get; set; }
         public DbSet<Employment> Employments { get; set; }
+
+        #endregion
+
+        #region CityHall
+
+        public DbSet<Application> Applications { get; set; }
 
         #endregion
 
