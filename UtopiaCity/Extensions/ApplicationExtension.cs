@@ -2,7 +2,7 @@ using Microsoft.Extensions.DependencyInjection;
 using UtopiaCity.Services.Business.Application;
 using UtopiaCity.Services.Business.Application.Impl;
 
-namespace UtopiaCity.Extensions.ApplicationLayer
+namespace UtopiaCity.Extensions
 {
     public static class ApplicationExtension
     {

@@ -7,5 +7,8 @@ namespace UtopiaCity.Services.Business.Application
     {
         Task ApplyCompany(ApplyCompanyDto applyCompanyDto);
         Task CreateCompany(CreateCompanyDto createCompanyDto);
+
+        Task CreatePosition(CreatePositionDto createPositionDto);
+        Task CreateEmployment(CreateEmploymentDto createEmploymentDto);
     }
 }

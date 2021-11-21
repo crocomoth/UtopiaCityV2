@@ -7,24 +7,23 @@ using Microsoft.Extensions.Hosting;
 using UtopiaCity.Common;
 using UtopiaCity.Data;
 using UtopiaCity.Extensions;
-using UtopiaCity.Extensions.ApiLayer;
 using UtopiaCity.Services.Emergency;
 
 namespace UtopiaCity
 {
     public class Startup
     {
+        private readonly IConfiguration _configuration;
+
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            _configuration = configuration;
         }
-
-        public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(_configuration.GetConnectionString("DefaultConnection")));
 
             #region Services
 
@@ -32,9 +31,11 @@ namespace UtopiaCity
 
             #endregion
 
-            services.Configure<AppConfig>(Configuration.GetSection(AppConfig.Name));
+            services.Configure<AppConfig>(_configuration.GetSection(AppConfig.Name));
             services.AddControllersWithViews();
             services.AddApiLayer();
+            services.AddApplicationLayer();
+            services.AddInfrastructureLayer(_configuration);
             services.AddServices();
         }
 
@@ -58,7 +59,7 @@ namespace UtopiaCity
                 app.UseHsts();
             }
 
-            var appConfig = Configuration.GetSection(AppConfig.Name).Get<AppConfig>();
+            var appConfig = _configuration.GetSection(AppConfig.Name).Get<AppConfig>();
             if (appConfig != null)
             {
                 using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())

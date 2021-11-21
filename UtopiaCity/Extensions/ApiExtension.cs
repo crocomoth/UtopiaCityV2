@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 
-namespace UtopiaCity.Extensions.ApiLayer
+namespace UtopiaCity.Extensions
 {
     public static class ApiExtension
     {

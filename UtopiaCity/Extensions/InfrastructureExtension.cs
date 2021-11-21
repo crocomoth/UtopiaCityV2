@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using UtopiaCity.Services.Business.Application;
 using UtopiaCity.Services.Business.Infrastructure.Cloudinary;
 
-namespace UtopiaCity.Extensions.InfrastructureLayer
+namespace UtopiaCity.Extensions
 {
     public static class InfrastructureExtension
     {
