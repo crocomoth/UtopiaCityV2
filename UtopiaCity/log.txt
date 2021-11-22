@@ -1,0 +1,23 @@
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Yauheni_Papiunenka\source\repos\UtopiaCity\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Home/Privacy
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Yauheni_Papiunenka\source\repos\UtopiaCity\UtopiaCity
+Routing:/
+Index for Home
+Routing:/lib/bootstrap/dist/css/bootstrap.min.css
+Routing:/css/site.css
+Routing:/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Routing:/js/site.js
+Routing:/lib/jquery/dist/jquery.min.js
+Routing:/EmergencyReport
+Routing:/Account/Login
+Routing:/Account/Login
+Routing:/
+Index for Home
+Routing:/EmergencyReport
+Routing:/EmergencyReport

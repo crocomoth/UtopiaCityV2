@@ -5,8 +5,10 @@ using UtopiaCity.Models;
 
 namespace UtopiaCity.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
+        public const string ControllerName = "Home";
+
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -17,6 +19,7 @@ namespace UtopiaCity.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            _logger.LogInformation("Index for Home");
             return View();
         }
 
