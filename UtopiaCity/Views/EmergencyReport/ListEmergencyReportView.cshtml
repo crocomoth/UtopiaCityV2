@@ -1,4 +1,5 @@
-﻿@model IEnumerable<UtopiaCity.Models.Emergency.EmergencyReport>
+﻿@using UtopiaCity.TagHelpers
+@model IEnumerable<UtopiaCity.Models.Emergency.EmergencyReport>
 
 @{
     ViewData["Title"] = "ListEmergencyReportView";
@@ -8,6 +9,9 @@
 
 <p>
     <a asp-action="Create">Create New</a>
+    <div Condition="false">
+        <p>Condition is set to true</p>
+    </div>
 </p>
 <table class="table">
     <thead>
