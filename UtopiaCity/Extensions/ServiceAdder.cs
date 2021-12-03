@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using UtopiaCity.Services.Business;
+using UtopiaCity.Services.Business.Impl;
 using UtopiaCity.Services.FireDepartment.FireIncidentReportServices;
 
 namespace UtopiaCity.Extensions
@@ -8,6 +10,16 @@ namespace UtopiaCity.Extensions
         public static void AddServices(this IServiceCollection services)
         {
             services.AddTransient<IFireIncidentReportService, FireIncidentReportService>();
+
+            services.AddBusinessServices();
+        }
+        
+        public static IServiceCollection AddBusinessServices(this IServiceCollection services)
+        {
+            services.AddScoped<IBusinessService, BusinessService>();
+            services.AddScoped<ICompanyService, CompanyService>();
+
+            return services;
         }
     }
 }

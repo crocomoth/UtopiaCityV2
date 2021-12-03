@@ -15,6 +15,7 @@ namespace UtopiaCity.Common
         public static void RegisterSubDbInitializers()
         {
             subDbInitializers.Add(new EmergencyReportInitializer());
+            subDbInitializers.Add(new BusinessInitializer());
         }
 
         public static void InitializeDb(AppDbContext context)

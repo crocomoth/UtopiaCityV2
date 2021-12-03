@@ -1,0 +1,51 @@
+﻿@model UtopiaCity.ViewModels.Business.Company.ApplyCompanyViewModel
+
+@{
+    ViewData["Title"] = "ApplyCompany";
+}
+
+<h1>ApplyCompanyView</h1>
+
+<h4>Company</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ApplyCompany">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CompanyTypeId" class="control-label"></label>
+                <select asp-for="CompanyTypeId" class ="form-control" asp-items="ViewBag.CompanyTypeId">
+                    @foreach(var companyType in Model.CompanyTypes)
+                    {
+                        <option value="@companyType.Id">@companyType.ShortTitle</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="CompanyActivityId" class="control-label"></label>
+                <select asp-for="CompanyActivityId" class ="form-control">
+                    @foreach(var companyActivity in Model.CompanyActivities)
+                    {
+                        <option value="@companyActivity.Id">@companyActivity.Title</option>
+                    }
+                </select>
+            </div> 
+            <div class="form-group">
+                <input type="submit" value="Apply" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

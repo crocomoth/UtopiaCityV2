@@ -1,0 +1,15 @@
+﻿@model UtopiaCity.ViewModels.Business.Company.IndexViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>WE HAVE MORE THAN @Model.CompaniesAmount COMPANIES WORKING RIGHT HERE! RIGHT NOW!</h1>
+<h1>WE HAVE MORE THAN @Model.EmployeesAmount EMPLOYEES WORKING RIGHT HERE! RIGHT NOW!</h1>
+<h1>WE HAVE MORE THAN @Model.VacanciesAmount VACANCIES RIGHT HERE! RIGHT NOW!</h1>
+
+<h2> It's your opportunity! Create your own company or get a job!</h2>
+
+<a class="nav-link text-dark" asp-area="" asp-controller="Company" asp-action="ApplyCompany">Create company</a>
+<br />
+<h3>Vacancies</h3>

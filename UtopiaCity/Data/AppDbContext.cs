@@ -3,6 +3,8 @@ using UtopiaCity.Data.MapConfigurations;
 using UtopiaCity.Models;
 using UtopiaCity.Models.Emergency;
 using UtopiaCity.Models.FireDepartment;
+using UtopiaCity.Models.Business.Entities;
+using UtopiaCity.Models.Business.Dictionaries;
 
 namespace UtopiaCity.Data
 {
@@ -15,6 +17,14 @@ namespace UtopiaCity.Data
         public DbSet<EmergencyReport> EmergencyReport { get; set; }
         public DbSet<FireIncidentReport> FireIncidentReports { get; set; }
         public DbSet<User> User { get; set; }
+
+        #region Business
+
+        public DbSet<Company> Companies { get; set; }
+        public DbSet<CompanyType> CompanyTypes { get; set; }
+        public DbSet<CompanyActivity> CompanyActivities{ get; set; }
+
+        #endregion
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
