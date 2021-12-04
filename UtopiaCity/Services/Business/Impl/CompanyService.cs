@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 using System.Threading.Tasks;
 using UtopiaCity.Data;
 using UtopiaCity.Models.Business.Entities;
@@ -18,13 +19,30 @@ namespace UtopiaCity.Services.Business.Impl
             _mapper = mapper;
         }
 
+        public async Task<CompanyListViewModel> GetCompanies()
+        {
+            var companies = await _appDbContext.Companies
+                .Where(c => !c.IsDeleted)
+                .Include(c => c.CompanyType)
+                .Include(c => c.CompanyActivity)
+                .ToListAsync();
+            return new CompanyListViewModel(companies);
+        }
+
         public async Task<CompanyInfoViewModel> GetCompanyInfo(string companyId)
         {
             var company = await _appDbContext.Companies
                 .Include(c => c.CompanyType)
                 .Include(c => c.CompanyActivity)
                 .FirstOrDefaultAsync(c => c.Id == companyId);
+
             var companyInfoViewModel = _mapper.Map<CompanyInfoViewModel>(company);
+
+            var companyPositions = await _appDbContext.Positions
+                .Where(p => p.CompanyId == companyId)
+                .ToListAsync();
+            companyInfoViewModel.Positions = companyPositions;
+
             return companyInfoViewModel;
         }
 
@@ -71,15 +89,11 @@ namespace UtopiaCity.Services.Business.Impl
             await _appDbContext.SaveChangesAsync();
         }
 
-        public async Task ApplyDeleteCompany(string companyId)
-        {
-            await DeleteCompany(companyId);
-        }
-
         public async Task DeleteCompany(string companyId)
         {
             var company = await _appDbContext.Companies.FirstOrDefaultAsync(c => c.Id == companyId);
-            _appDbContext.Remove(company);
+            company.IsDeleted = true;
+            _appDbContext.Update(company);
             await _appDbContext.SaveChangesAsync();
         }
     }

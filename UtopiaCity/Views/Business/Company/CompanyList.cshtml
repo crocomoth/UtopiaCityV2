@@ -1,0 +1,16 @@
+﻿@model UtopiaCity.ViewModels.Business.Company.CompanyListViewModel
+
+@foreach(var company in Model.Companies)
+{
+    <div>
+        <h1>@company.Title</h1>
+        <h3>@company.CompanyType.ShortTitle</h3>
+        <h3>@company.CompanyActivity.Title</h3>
+        <a class="nav-link text-dark" asp-controller="Company" asp-action="GetCompanyInfo" asp-route-companyId="@company.Id">Company Info</a>
+        <a class="nav-link text-dark" asp-controller="Company" asp-action="UpdateCompany" asp-route-companyId="@company.Id">Update Company</a>
+        <form asp-action="DeleteCompany">
+            <input type="hidden" name="companyId" value="@company.Id"/>
+            <input type="submit" value="Delete" class="btn btn-danger" />
+        </form>       
+    </div>
+}

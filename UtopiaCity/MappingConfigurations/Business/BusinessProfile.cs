@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using UtopiaCity.Models.Business.Entities;
 using UtopiaCity.ViewModels.Business.Company;
+using UtopiaCity.ViewModels.Business.Position;
 
 namespace UtopiaCity.MappingConfigurations.Business
 {
@@ -9,6 +10,7 @@ namespace UtopiaCity.MappingConfigurations.Business
         public BusinessProfile()
         {
             ApplyCompanyMappings();
+            ApplyPositionMappings();
         }
 
         private void ApplyCompanyMappings()
@@ -21,6 +23,11 @@ namespace UtopiaCity.MappingConfigurations.Business
                 .ForMember(uc => uc.CompanyType, s => s.MapFrom(c => c.CompanyType.Title))
                 .ForMember(uc => uc.CompanyActivity, s => s.MapFrom(c => c.CompanyActivity.Title));
             CreateMap<UpdateCompanyViewModel, Company>();
+        }
+
+        private void ApplyPositionMappings()
+        {
+            CreateMap<CreatePositionViewModel, Position>();
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Linq;
 using System.Threading.Tasks;
 using UtopiaCity.Data;
 using UtopiaCity.ViewModels.Business;
@@ -16,7 +17,9 @@ namespace UtopiaCity.Services.Business.Impl
 
         public async Task<IndexViewModel> CreateIndexViewModel()
         {
-            var companiesAmount = await _appDbContext.Companies.CountAsync();
+            var companiesAmount = await _appDbContext.Companies
+                .Where(c => !c.IsDeleted)
+                .CountAsync();
             return new IndexViewModel(companiesAmount);
         }
     }

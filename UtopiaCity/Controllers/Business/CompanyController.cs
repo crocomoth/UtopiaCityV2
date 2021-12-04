@@ -5,7 +5,6 @@ using UtopiaCity.ViewModels.Business.Company;
 
 namespace UtopiaCity.Controllers.Business
 {
-    [Route("business/[controller]/[action]")]
     public class CompanyController: BaseController
     {
         private readonly ICompanyService _companyService;
@@ -15,7 +14,14 @@ namespace UtopiaCity.Controllers.Business
             _companyService = companyService;
         }
 
-        [HttpGet("{companyId}")]
+        [HttpGet]
+        public async Task<IActionResult> GetCompanies()
+        {
+            var companyListViewModel = await _companyService.GetCompanies();
+            return View("Views/Business/Company/CompanyList.cshtml", companyListViewModel);
+        }
+
+        [HttpGet("[action]/{companyId}")]
         public async Task<IActionResult> GetCompanyInfo(string companyId)
         {
             var companyInfoViewModel = await _companyService.GetCompanyInfo(companyId);
@@ -36,7 +42,7 @@ namespace UtopiaCity.Controllers.Business
             return RedirectToAction("Index", "Business");
         }
 
-        [HttpGet("{companyId}")]
+        [HttpGet("[action]/{companyId}")]
         public async Task<IActionResult> UpdateCompany(string companyId)
         {
             var updateCompanyViewModel = await _companyService.CreateUpdateCompanyViewModel(companyId);
@@ -47,6 +53,13 @@ namespace UtopiaCity.Controllers.Business
         public async Task<IActionResult> UpdateCompany(UpdateCompanyViewModel updateCompanyViewModel)
         {
             await _companyService.UpdateCompany(updateCompanyViewModel);
+            return RedirectToAction("Index", "Business");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteCompany(string companyId)
+        {
+            await _companyService.DeleteCompany(companyId);
             return RedirectToAction("Index", "Business");
         }
     }

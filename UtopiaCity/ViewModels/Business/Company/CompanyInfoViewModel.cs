@@ -1,4 +1,6 @@
-﻿namespace UtopiaCity.ViewModels.Business.Company
+﻿using System.Collections.Generic;
+
+namespace UtopiaCity.ViewModels.Business.Company
 {
     public class CompanyInfoViewModel
     {
@@ -9,5 +11,6 @@
         public string CompanyType { get; set; }
         public string CompanyActivityId { get; set; }
         public string CompanyActivity { get; set; }
+        public List<Models.Business.Entities.Position> Positions { get; set; }
     }
 }
