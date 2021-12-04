@@ -15,6 +15,13 @@ namespace UtopiaCity.Controllers.Business
             _companyService = companyService;
         }
 
+        [HttpGet("{companyId}")]
+        public async Task<IActionResult> GetCompanyInfo(string companyId)
+        {
+            var companyInfoViewModel = await _companyService.GetCompanyInfo(companyId);
+            return View("Views/Business/Company/CompanyInfo.cshtml", companyInfoViewModel);
+        }
+
         [HttpGet]
         public async Task<IActionResult> ApplyCompany()
         {
@@ -26,6 +33,20 @@ namespace UtopiaCity.Controllers.Business
         public async Task<IActionResult> ApplyCompany(ApplyCompanyViewModel applyCompanyViewModel)
         {
             await _companyService.ApplyCompany(applyCompanyViewModel);
+            return RedirectToAction("Index", "Business");
+        }
+
+        [HttpGet("{companyId}")]
+        public async Task<IActionResult> UpdateCompany(string companyId)
+        {
+            var updateCompanyViewModel = await _companyService.CreateUpdateCompanyViewModel(companyId);
+            return View("Views/Business/Company/UpdateCompany.cshtml", updateCompanyViewModel);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateCompany(UpdateCompanyViewModel updateCompanyViewModel)
+        {
+            await _companyService.UpdateCompany(updateCompanyViewModel);
             return RedirectToAction("Index", "Business");
         }
     }

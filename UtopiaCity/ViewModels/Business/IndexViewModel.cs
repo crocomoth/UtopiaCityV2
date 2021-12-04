@@ -1,4 +1,4 @@
-﻿namespace UtopiaCity.ViewModels.Business.Company
+﻿namespace UtopiaCity.ViewModels.Business
 {
     public class IndexViewModel
     {

@@ -1,20 +1,25 @@
-﻿@model UtopiaCity.ViewModels.Business.Company.ApplyCompanyViewModel
+﻿@model UtopiaCity.ViewModels.Business.Company.UpdateCompanyViewModel
 
-<h1>Apply company</h1>
+@{
+    ViewData["Title"] = "UpdateCompany";
+}
+
+<h1>UpdateCompany</h1>
 
 <h4>Company</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="ApplyCompany">
+        <form method="post" action="~/Business/Company/UpdateCompany">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Title" class="control-label"></label>
                 <input asp-for="Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger"></span>
-            </div>            
+            </div>
             <div class="form-group">
                 <label asp-for="CompanyTypeId" class="control-label"></label>
-                <select asp-for="CompanyTypeId" class="form-control">
+                <select asp-for="CompanyTypeId" class="form-control" value="@Model.CompanyTypeId">
                     @foreach (var companyType in Model.CompanyTypes)
                     {
                         <option value="@companyType.Id">@companyType.ShortTitle</option>
@@ -24,16 +29,17 @@
             </div>
             <div class="form-group">
                 <label asp-for="CompanyActivityId" class="control-label"></label>
-                <select asp-for="CompanyActivityId" class="form-control">
-                    @foreach (var companyActivity in Model.CompanyActivities)
+                <select asp-for="CompanyActivityId" class="form-control" value="@Model.CompanyActivityId">
+                    @foreach (var companyType in Model.CompanyTypes)
                     {
-                        <option value="@companyActivity.Id">@companyActivity.Title</option>
+                        <option value="@companyType.Id">@companyType.ShortTitle</option>
                     }
                 </select>
                 <span asp-validation-for="CompanyActivityId" class="text-danger"></span>
             </div>
+            <input type="hidden" asp-for="Id" />
             <div class="form-group">
-                <input type="submit" value="Apply" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
     </div>

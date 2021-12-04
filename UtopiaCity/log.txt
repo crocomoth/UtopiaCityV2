@@ -365,3 +365,702 @@ Index for Home
 Routing:/Business
 Routing:/business/Company/ApplyCompany
 Routing:/business/Company/ApplyCompany
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/lib/bootstrap/dist/css/bootstrap.min.css
+Routing:/css/site.css
+Routing:/lib/jquery/dist/jquery.min.js
+Routing:/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Routing:/js/site.js
+Routing:/Business
+Routing:/business/Company/ApplyCompany
+Routing:/lib/jquery-validation/dist/jquery.validate.min.js
+Routing:/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/css/site.css
+Routing:/lib/bootstrap/dist/css/bootstrap.min.css
+Routing:/lib/jquery/dist/jquery.min.js
+Routing:/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Routing:/js/site.js
+Routing:/Business
+Routing:/business/Company/ApplyCompany
+Routing:/lib/jquery-validation/dist/jquery.validate.min.js
+Routing:/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+Routing:/business/Company/ApplyCompany
+Routing:/Business
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/business/Company/ApplyCompany
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/business/Company/ApplyCompany
+Routing:/business/Company/ApplyCompany
+Routing:/Business
+Routing:/business/Company/ApplyCompany
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/getcompanyinfo/1
+The view 'GetCompanyInfo' was not found. Searched locations: /Views/Company/GetCompanyInfo.cshtml, /Views/Shared/GetCompanyInfo.cshtml
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/getcompanyinfo/1
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/getcompanyinfo/620687ca-10c2-4fdc-9cd5-0617b38e4a39
+Routing:/business/company/getcompanyinfo/620687ca-10c2-4fdc-9cd5-0617b38e4a39
+Routing:/favicon.ico
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/business/company/getcompanyinfo/620687ca-10c2-4fdc-9cd5-0617b38e4a39
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/updateCompanyViewModel
+An unhandled exception has occurred while executing the request.
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/ApplyCompany
+Routing:/Business
+Routing:/Business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/company/applycompany
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/css/site.css
+Routing:/lib/jquery/dist/jquery.min.js
+Routing:/lib/bootstrap/dist/css/bootstrap.min.css
+Routing:/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Routing:/js/site.js
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/company/applycompany
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+Routing:/lib/jquery-validation/dist/jquery.validate.min.js
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Business/Company/UpdateCompany
+Failed executing DbCommand (9ms) [Parameters=[@p7='?' (Size = 450), @p0='?' (Size = 450), @p1='?' (Size = 450), @p2='?' (DbType = DateTime2), @p3='?' (Size = 450), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Companies] SET [CompanyActivityId] = @p0, [CompanyTypeId] = @p1, [EndDate] = @p2, [FounderId] = @p3, [IsDeleted] = @p4, [StartDate] = @p5, [Title] = @p6
+WHERE [Id] = @p7;
+SELECT @@ROWCOUNT;
+An exception occurred in the database while saving changes for context type 'UtopiaCity.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Companies_CompanyActivities_CompanyActivityId". The conflict occurred in database "aspnet-UtopiaCity-Database", table "dbo.CompanyActivities", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:64368f42-fad4-4e27-8ec2-1e06bdf627e6
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Company/~%2FBusiness%2FCompany%2FUpdateCompany
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Company/%2FCompany%2FUpdateCompany
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/favicon.ico
+Routing:/company/applycompany
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/company/applycompany
+Routing:/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/company/getcompanyinfo
+Routing:/business/company/getcompanyinfo/620687ca-10c2-4fdc-9cd5-0617b38e4a39
+Routing:/company/getcompanyinfo/620687ca-10c2-4fdc-9cd5-0617b38e4a39
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/company/applycompany
+Routing:/company/applycompany
+Routing:/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/company/updatecompany/~Business/Company/UpdateCompany
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/company/applycompany
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Business/Company/UpdateCompany
+Failed executing DbCommand (6ms) [Parameters=[@p7='?' (Size = 450), @p0='?' (Size = 450), @p1='?' (Size = 450), @p2='?' (DbType = DateTime2), @p3='?' (Size = 450), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Companies] SET [CompanyActivityId] = @p0, [CompanyTypeId] = @p1, [EndDate] = @p2, [FounderId] = @p3, [IsDeleted] = @p4, [StartDate] = @p5, [Title] = @p6
+WHERE [Id] = @p7;
+SELECT @@ROWCOUNT;
+An exception occurred in the database while saving changes for context type 'UtopiaCity.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Companies_CompanyActivities_CompanyActivityId". The conflict occurred in database "aspnet-UtopiaCity-Database", table "dbo.CompanyActivities", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:cd9ac0e7-3863-4700-9d88-918143e021c4
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Business/Company/UpdateCompany
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Business/Company/UpdateCompany
+Failed executing DbCommand (5ms) [Parameters=[@p7='?' (Size = 450), @p0='?' (Size = 450), @p1='?' (Size = 450), @p2='?' (DbType = DateTime2), @p3='?' (Size = 450), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Companies] SET [CompanyActivityId] = @p0, [CompanyTypeId] = @p1, [EndDate] = @p2, [FounderId] = @p3, [IsDeleted] = @p4, [StartDate] = @p5, [Title] = @p6
+WHERE [Id] = @p7;
+SELECT @@ROWCOUNT;
+An exception occurred in the database while saving changes for context type 'UtopiaCity.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Companies_CompanyActivities_CompanyActivityId". The conflict occurred in database "aspnet-UtopiaCity-Database", table "dbo.CompanyActivities", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:b9dc85c9-074e-4d23-a7bc-bb7ac506e4e1
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Business/Company/UpdateCompany
+Failed executing DbCommand (5ms) [Parameters=[@p2='?' (Size = 450), @p0='?' (Size = 450), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Companies] SET [CompanyActivityId] = @p0, [CompanyTypeId] = @p1
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;
+An exception occurred in the database while saving changes for context type 'UtopiaCity.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Companies_CompanyActivities_CompanyActivityId". The conflict occurred in database "aspnet-UtopiaCity-Database", table "dbo.CompanyActivities", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:56a11c5a-b06b-474a-947d-67caac088581
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Business/Company/UpdateCompany
+Failed executing DbCommand (7ms) [Parameters=[@p7='?' (Size = 450), @p0='?' (Size = 450), @p1='?' (Size = 450), @p2='?' (DbType = DateTime2), @p3='?' (Size = 450), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Companies] SET [CompanyActivityId] = @p0, [CompanyTypeId] = @p1, [EndDate] = @p2, [FounderId] = @p3, [IsDeleted] = @p4, [StartDate] = @p5, [Title] = @p6
+WHERE [Id] = @p7;
+SELECT @@ROWCOUNT;
+An exception occurred in the database while saving changes for context type 'UtopiaCity.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Companies_CompanyActivities_CompanyActivityId". The conflict occurred in database "aspnet-UtopiaCity-Database", table "dbo.CompanyActivities", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:31d3e330-fc8f-4b30-915d-75532e55faf8
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/business/Company/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Business/Company/UpdateCompany
+Failed executing DbCommand (6ms) [Parameters=[@p7='?' (Size = 450), @p0='?' (Size = 450), @p1='?' (Size = 450), @p2='?' (DbType = DateTime2), @p3='?' (Size = 450), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Companies] SET [CompanyActivityId] = @p0, [CompanyTypeId] = @p1, [EndDate] = @p2, [FounderId] = @p3, [IsDeleted] = @p4, [StartDate] = @p5, [Title] = @p6
+WHERE [Id] = @p7;
+SELECT @@ROWCOUNT;
+An exception occurred in the database while saving changes for context type 'UtopiaCity.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_Companies_CompanyActivities_CompanyActivityId". The conflict occurred in database "aspnet-UtopiaCity-Database", table "dbo.CompanyActivities", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:eab3d6b7-1784-45ae-9a32-4a2e98985aeb
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Business/Company/UpdateCompany
+Routing:/Business
+Routing:/Business/company/updatecompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a

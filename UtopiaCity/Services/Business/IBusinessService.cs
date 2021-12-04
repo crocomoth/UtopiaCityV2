@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using UtopiaCity.ViewModels.Business.Company;
+using UtopiaCity.ViewModels.Business;
 
 namespace UtopiaCity.Services.Business
 {

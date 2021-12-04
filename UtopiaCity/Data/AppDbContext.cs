@@ -23,6 +23,7 @@ namespace UtopiaCity.Data
         public DbSet<Company> Companies { get; set; }
         public DbSet<CompanyType> CompanyTypes { get; set; }
         public DbSet<CompanyActivity> CompanyActivities{ get; set; }
+        public DbSet<Position> Positions { get; set; }
 
         #endregion
 
