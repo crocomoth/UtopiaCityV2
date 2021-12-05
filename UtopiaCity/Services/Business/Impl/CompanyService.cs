@@ -40,8 +40,15 @@ namespace UtopiaCity.Services.Business.Impl
 
             var companyPositions = await _appDbContext.Positions
                 .Where(p => p.CompanyId == companyId)
+                .Where(p => !p.IsDeleted)
                 .ToListAsync();
             companyInfoViewModel.Positions = companyPositions;
+
+            var companyVacancies = await _appDbContext.Vacancies
+                .Where(v => !v.IsDeleted)
+                .Where(v => v.Position.CompanyId == companyId)
+                .ToListAsync();
+            companyInfoViewModel.Vacancies = companyVacancies;
 
             return companyInfoViewModel;
         }

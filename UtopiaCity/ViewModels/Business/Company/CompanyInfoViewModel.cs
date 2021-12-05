@@ -12,5 +12,6 @@ namespace UtopiaCity.ViewModels.Business.Company
         public string CompanyActivityId { get; set; }
         public string CompanyActivity { get; set; }
         public List<Models.Business.Entities.Position> Positions { get; set; }
+        public List<Models.Business.Entities.Vacancy> Vacancies { get; set; }
     }
 }

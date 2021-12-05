@@ -2,6 +2,7 @@
 using UtopiaCity.Models.Business.Entities;
 using UtopiaCity.ViewModels.Business.Company;
 using UtopiaCity.ViewModels.Business.Position;
+using UtopiaCity.ViewModels.Business.Vacancy;
 
 namespace UtopiaCity.MappingConfigurations.Business
 {
@@ -11,6 +12,7 @@ namespace UtopiaCity.MappingConfigurations.Business
         {
             ApplyCompanyMappings();
             ApplyPositionMappings();
+            ApplyVacancyMappings();
         }
 
         private void ApplyCompanyMappings()
@@ -28,6 +30,11 @@ namespace UtopiaCity.MappingConfigurations.Business
         private void ApplyPositionMappings()
         {
             CreateMap<CreatePositionViewModel, Position>();
+        }
+
+        private void ApplyVacancyMappings()
+        {
+            CreateMap<CreateVacancyViewModel, Vacancy>();            
         }
     }
 }

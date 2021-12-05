@@ -8,10 +8,30 @@
 <h5>@Model.CompanyType</h5>
 <h5>@Model.CompanyActivity</h5>
 
-@foreach(var position in Model.Positions)
+<hr />
+
+<a class="nav-link text-dark" asp-controller="Position" asp-action="CreatePosition" asp-route-companyId="@Model.Id">Create Position</a>
+
+@foreach (var position in Model.Positions)
 {
     <h3>@position.Title</h3>
     <h3>@position.Description</h3>
+    <form asp-controller="Position" asp-action="DeletePosition">
+        <input type="hidden" name="positionId" value="@position.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" />
+    </form>
 }
 
-<a class="nav-link text-dark" asp-controller="Position" asp-action="CreatePosition" asp-route-companyId="@Model.Id">Create Position</a>
+<hr />
+
+<a class="nav-link text-dark" asp-controller="Vacancy" asp-action="CreateVacancy" asp-route-companyId="@Model.Id">Create Vacancy</a>
+
+@foreach (var vacancy in Model.Vacancies)
+{
+    <h3>@vacancy.Title</h3>
+    <h3>@vacancy.Description</h3>
+    <form asp-controller="Vacancy" asp-action="DeleteVacancy">
+        <input type="hidden" name="vacancyId" value="@vacancy.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" />
+    </form>
+}

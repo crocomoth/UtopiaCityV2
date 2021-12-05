@@ -15,7 +15,7 @@ namespace UtopiaCity.Controllers.Business
         }
 
         [HttpGet]
-        public async Task<IActionResult> CreatePosition(string companyId)
+        public IActionResult CreatePosition(string companyId)
         {
             var createPositionViewModel = new CreatePositionViewModel(companyId);
             return View("Views/Business/Position/CreatePosition.cshtml", createPositionViewModel);
@@ -25,6 +25,13 @@ namespace UtopiaCity.Controllers.Business
         public async Task<IActionResult> CreatePosition(CreatePositionViewModel CreatePositionViewModel)
         {
             await _positionService.CreatePosition(CreatePositionViewModel);
+            return RedirectToAction("Index", "Business");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeletePosition(string positionId)
+        {
+            await _positionService.DeletePosition(positionId);
             return RedirectToAction("Index", "Business");
         }
     }

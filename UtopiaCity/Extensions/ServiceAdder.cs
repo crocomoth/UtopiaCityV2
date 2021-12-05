@@ -19,6 +19,7 @@ namespace UtopiaCity.Extensions
             services.AddScoped<IBusinessService, BusinessService>();
             services.AddScoped<ICompanyService, CompanyService>();
             services.AddScoped<IPositionService, PositionService>();
+            services.AddScoped<IVacancyService, VacancyService>();
 
             return services;
         }

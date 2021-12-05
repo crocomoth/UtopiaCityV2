@@ -24,6 +24,7 @@ namespace UtopiaCity.Data
         public DbSet<CompanyType> CompanyTypes { get; set; }
         public DbSet<CompanyActivity> CompanyActivities{ get; set; }
         public DbSet<Position> Positions { get; set; }
+        public DbSet<Vacancy> Vacancies { get; set; }
 
         #endregion
 

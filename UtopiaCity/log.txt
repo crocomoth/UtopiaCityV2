@@ -1551,3 +1551,275 @@ Routing:/Position/CreatePosition
 Routing:/Company/GetCompanies
 Routing:/UpdateCompany/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
 Routing:/Company/GetCompanies
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Company/DeletePosition
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Company/DeletePosition
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Company/DeletePosition
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Position/DeletePosition
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Position/DeletePosition
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Position/CreatePosition
+Routing:/Company/GetCompanies
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/Account/Login
+Routing:/Account/Register
+Routing:/Account/Register
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Company/GetCompanies
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/CreatePosition
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/CreateVacancy
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/CreateVacancy
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/CreateVacancy
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/CreateVacancy
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Vacancy/CreateVacancy
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Vacancy/CreateVacancy
+An unhandled exception has occurred while executing the request.
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Vacancy/CreateVacancy
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\omirz\Desktop\Projects\Epam\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Vacancy/DeleteVacancy
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
+Routing:/Vacancy/CreateVacancy
+Routing:/Business
+Routing:/Company/GetCompanies
+Routing:/GetCompanyInfo/0486874b-fc7a-405f-a9b5-2fb908ac9e3a
