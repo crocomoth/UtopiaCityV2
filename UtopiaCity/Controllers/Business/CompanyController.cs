@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using UtopiaCity.Services.Business;
 using UtopiaCity.ViewModels.Business.Company;
@@ -17,7 +20,19 @@ namespace UtopiaCity.Controllers.Business
         [HttpGet]
         public async Task<IActionResult> GetCompanies()
         {
-            var companyListViewModel = await _companyService.GetCompanies();
+            var companyListViewModel = await _companyService.GetCompanies(null);
+            return View("Views/Business/Company/CompanyList.cshtml", companyListViewModel);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetUserCompanies()
+        {
+            var userName = HttpContext.User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+            if (userName == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+            var companyListViewModel = await _companyService.GetCompanies(userName);
             return View("Views/Business/Company/CompanyList.cshtml", companyListViewModel);
         }
 
@@ -31,7 +46,12 @@ namespace UtopiaCity.Controllers.Business
         [HttpGet]
         public async Task<IActionResult> ApplyCompany()
         {
-            var applyCompanyViewModel = await _companyService.CreateApplyCompanyViewModel(); 
+            var userName = HttpContext.User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+            if(userName == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+            var applyCompanyViewModel = await _companyService.CreateApplyCompanyViewModel(userName); 
             return View("Views/Business/Company/ApplyCompany.cshtml", applyCompanyViewModel);
         }
 

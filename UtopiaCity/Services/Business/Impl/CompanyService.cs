@@ -19,9 +19,11 @@ namespace UtopiaCity.Services.Business.Impl
             _mapper = mapper;
         }
 
-        public async Task<CompanyListViewModel> GetCompanies()
+        public async Task<CompanyListViewModel> GetCompanies(string userName)
         {
+            var user = await _appDbContext.User.FirstOrDefaultAsync(u => u.Name == userName);
             var companies = await _appDbContext.Companies
+                .Where(c => user == null || c.FounderId == user.Id)
                 .Where(c => !c.IsDeleted)
                 .Include(c => c.CompanyType)
                 .Include(c => c.CompanyActivity)
@@ -53,11 +55,12 @@ namespace UtopiaCity.Services.Business.Impl
             return companyInfoViewModel;
         }
 
-        public async Task<ApplyCompanyViewModel> CreateApplyCompanyViewModel()
+        public async Task<ApplyCompanyViewModel> CreateApplyCompanyViewModel(string userName)
         {
+            var user = await _appDbContext.User.FirstOrDefaultAsync(u => u.Name == userName);
             var companyTypes = await _appDbContext.CompanyTypes.ToListAsync();
             var companyActivities = await _appDbContext.CompanyActivities.ToListAsync();
-            return new ApplyCompanyViewModel(companyTypes, companyActivities);
+            return new ApplyCompanyViewModel(companyTypes, companyActivities, user?.Id);
         }
 
         public async Task ApplyCompany(ApplyCompanyViewModel applyCompanyViewModel)

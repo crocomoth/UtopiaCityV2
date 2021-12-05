@@ -6,6 +6,7 @@ namespace UtopiaCity.ViewModels.Business.Company
     public class ApplyCompanyViewModel
     {
         public string Title { get; set; }
+        public string FounderId { get; set; }
         public string CompanyTypeId { get; set; }
         public string CompanyActivityId { get; set; }
         public List<CompanyType> CompanyTypes { get; set; }
@@ -15,8 +16,9 @@ namespace UtopiaCity.ViewModels.Business.Company
         {
         }
 
-        public ApplyCompanyViewModel(List<CompanyType> companyTypes, List<CompanyActivity> companyActivities)
+        public ApplyCompanyViewModel(List<CompanyType> companyTypes, List<CompanyActivity> companyActivities, string userId)
         {
+            FounderId = userId;
             CompanyTypes = companyTypes;
             CompanyActivities = companyActivities;
         }

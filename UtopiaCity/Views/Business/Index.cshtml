@@ -12,6 +12,8 @@
 
 <h2>All companies</h2>
 <a class="nav-link text-dark" asp-controller="Company" asp-action="GetCompanies">All companies</a>
+<h2>My companies</h2>
+<a class="nav-link text-dark" asp-controller="Company" asp-action="GetUserCompanies" asp-route-userId="@Model">My companies</a>
 <hr />
 <h2>Create company</h2>
 <a class="nav-link text-dark" asp-area="" asp-controller="Company" asp-action="ApplyCompany">Create company</a>

@@ -6,9 +6,9 @@ namespace UtopiaCity.Services.Business
 {
     public interface ICompanyService
     {
-        Task<CompanyListViewModel> GetCompanies();
+        Task<CompanyListViewModel> GetCompanies(string userName);
         Task<CompanyInfoViewModel> GetCompanyInfo(string companyId);
-        Task<ApplyCompanyViewModel> CreateApplyCompanyViewModel();
+        Task<ApplyCompanyViewModel> CreateApplyCompanyViewModel(string userName);
         Task ApplyCompany(ApplyCompanyViewModel applyCompanyViewModel);
         Task CreateCompany(Company company);
         Task<UpdateCompanyViewModel> CreateUpdateCompanyViewModel(string companyId);
