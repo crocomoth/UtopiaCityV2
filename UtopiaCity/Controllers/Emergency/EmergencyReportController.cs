@@ -9,7 +9,7 @@ using UtopiaCity.Services.Emergency;
 
 namespace UtopiaCity.Controllers.Emergency
 {
-    [Authorize]
+    //[Authorize]
     [CookieFilter]
     public class EmergencyReportController : BaseController
     {
@@ -25,6 +25,7 @@ namespace UtopiaCity.Controllers.Emergency
         }
 
         [HttpGet]
+        [ResponseCache(Location = ResponseCacheLocation.Any, Duration = 300)]
         public async Task<ActionResult> Index()
         {
             return View("ListEmergencyReportView", await _emergencyReportService.GetAllReportsAsync());

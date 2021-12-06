@@ -1,16 +1,15 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using UtopiaCity.Common.Attributes;
+using UtopiaCity.Models.Common;
 
 namespace UtopiaCity.Models.Emergency
 {
     /// <summary>
     /// This is Emergency example class.
     /// </summary>
-    public class EmergencyReport
+    public class EmergencyReport : BaseObject
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public string Id { get; set; }
         /// <summary>
         /// This is some generic data.
         /// </summary>
