@@ -9,5 +9,6 @@
 
         public bool ClearDb { get; set; }
         public bool SeedDb { get; set; }
+        public int CacheExpiration { get; set; }
     }
 }

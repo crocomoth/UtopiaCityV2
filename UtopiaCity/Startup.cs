@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -11,7 +12,9 @@ using UtopiaCity.Common;
 using UtopiaCity.Common.Extensions;
 using UtopiaCity.Common.Middleware;
 using UtopiaCity.Data;
+using UtopiaCity.Data.Providers;
 using UtopiaCity.Extensions;
+using UtopiaCity.Models.Emergency;
 using UtopiaCity.Services.Emergency;
 
 namespace UtopiaCity
@@ -32,6 +35,7 @@ namespace UtopiaCity
 
             #region Services
 
+            services.AddSingleton<GenericDataProvider<EmergencyReport>, GenericDataProvider<EmergencyReport>>();
             services.AddScoped<EmergencyReportService, EmergencyReportService>();
 
             #endregion
@@ -44,7 +48,21 @@ namespace UtopiaCity
                     options.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Account/Login");
                 });
 
-            services.AddControllersWithViews();
+            var appConfig = Configuration.GetSection(AppConfig.Name).Get<AppConfig>();
+            services.AddControllersWithViews(options =>
+            {
+                options.CacheProfiles.Add(Constants.Cache.Caching, new CacheProfile()
+                {
+                    Duration = appConfig?.CacheExpiration ?? 300,
+                    Location = ResponseCacheLocation.Any
+                });
+                options.CacheProfiles.Add(Constants.Cache.NonCaching, new CacheProfile()
+                {
+                    Location = ResponseCacheLocation.None,
+                    NoStore = true
+                });
+            });
+
             services.AddServices();
             services.AddAutoMapper(typeof(Startup));
         }
