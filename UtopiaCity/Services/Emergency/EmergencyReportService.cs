@@ -21,7 +21,7 @@ namespace UtopiaCity.Services.Emergency
             _provider = provider;
         }
 
-        public async Task<List<EmergencyReport>> GetAllReportsAsync()
+        public virtual async Task<List<EmergencyReport>> GetAllReportsAsync()
         {
             return await _dbContext.EmergencyReport.ToListAsync();
         }

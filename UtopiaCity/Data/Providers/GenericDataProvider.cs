@@ -17,7 +17,7 @@ namespace UtopiaCity.Data.Providers
         {
             _context = context;
             _cache = cache;
-            _cacheExpiration = TimeSpan.FromSeconds(options.Value.CacheExpiration);
+            _cacheExpiration = TimeSpan.FromSeconds(options.Value?.CacheExpiration ?? 300);
         }
 
         public virtual async Task<T> Get(string id, bool cacheResult = true)
