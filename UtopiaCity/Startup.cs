@@ -1,12 +1,14 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using System.Globalization;
 using System.IO;
 using UtopiaCity.Common;
 using UtopiaCity.Common.Extensions;
@@ -35,12 +37,26 @@ namespace UtopiaCity
 
             #region Services
 
-            services.AddSingleton<GenericDataProvider<EmergencyReport>, GenericDataProvider<EmergencyReport>>();
+            services.AddScoped<GenericDataProvider<EmergencyReport>, GenericDataProvider<EmergencyReport>>();
             services.AddScoped<EmergencyReportService, EmergencyReportService>();
 
             #endregion
 
             services.Configure<AppConfig>(Configuration.GetSection(AppConfig.Name));
+            services.Configure<RequestLocalizationOptions>(options =>
+            {
+                var supported = new[]
+                {
+                    new CultureInfo("en-US"),
+                    new CultureInfo("ru-RU")
+                };
+
+                options.DefaultRequestCulture = new RequestCulture("en-US");
+                options.SupportedCultures = supported;
+                options.SupportedUICultures = supported;
+            });
+
+            services.AddLocalization(options => options.ResourcesPath = "Resources");
 
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options =>
@@ -49,19 +65,22 @@ namespace UtopiaCity
                 });
 
             var appConfig = Configuration.GetSection(AppConfig.Name).Get<AppConfig>();
-            services.AddControllersWithViews(options =>
-            {
-                options.CacheProfiles.Add(Constants.Cache.Caching, new CacheProfile()
+            services
+                .AddControllersWithViews(options =>
                 {
-                    Duration = appConfig?.CacheExpiration ?? 300,
-                    Location = ResponseCacheLocation.Any
-                });
-                options.CacheProfiles.Add(Constants.Cache.NonCaching, new CacheProfile()
-                {
-                    Location = ResponseCacheLocation.None,
-                    NoStore = true
-                });
-            });
+                    options.CacheProfiles.Add(Constants.Cache.Caching, new CacheProfile()
+                    {
+                        Duration = appConfig?.CacheExpiration ?? 300,
+                        Location = ResponseCacheLocation.Any
+                    });
+                    options.CacheProfiles.Add(Constants.Cache.NonCaching, new CacheProfile()
+                    {
+                        Location = ResponseCacheLocation.None,
+                        NoStore = true
+                    });
+                })
+                .AddDataAnnotationsLocalization()
+                .AddViewLocalization();
 
             services.AddServices();
             services.AddAutoMapper(typeof(Startup));
@@ -105,6 +124,8 @@ namespace UtopiaCity
 
             app.UseMiddleware<LoggingMiddleware>();
 
+            app.UseRequestLocalization(GetDefaultRequestLocalizationOptions());
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
@@ -116,6 +137,22 @@ namespace UtopiaCity
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+        }
+
+        private static RequestLocalizationOptions GetDefaultRequestLocalizationOptions()
+        {
+            var supported = new[]
+            {
+                new CultureInfo("en-US"),
+                new CultureInfo("ru-RU")
+            };
+
+            return new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture("en-US"),
+                SupportedCultures = supported,
+                SupportedUICultures = supported
+            };
         }
     }
 }
