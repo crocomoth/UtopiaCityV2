@@ -45,3 +45,28 @@ Routing:/
 Index for Home
 Routing:/
 Index for Home
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Yauheni_Papiunenka\source\repos\UtopiaCity\UtopiaCity
+Routing:/
+Index for Home
+Routing:/lib/jquery/dist/jquery.min.js
+Routing:/css/site.css
+Routing:/lib/bootstrap/dist/css/bootstrap.min.css
+Routing:/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Routing:/js/site.js
+Routing:/EmergencyReportPartial
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Yauheni_Papiunenka\source\repos\UtopiaCity\UtopiaCity
+Routing:/
+Index for Home
+Routing:/EmergencyReportTest
+Routing:/EmergencyReportTest/SomeAction
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: C:\Users\Yauheni_Papiunenka\source\repos\UtopiaCity\UtopiaCity
+Routing:/
+Index for Home
+Routing:/EmergencyReportTest
+Routing:/EmergencyReportTest/SomeAction
